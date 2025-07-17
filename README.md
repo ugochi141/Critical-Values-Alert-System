@@ -15,10 +15,15 @@ The Critical Values Alert System is an automated tool designed to monitor labora
 - Scalable architecture to handle high volumes of test results
 
 ## Installation
-1. Clone the repository:git clone https://github.com/ugochi141/Critical-Values-Alert-System.git
-2. Navigate to the project directory: cd Critical-Values-Alert-System
-3. Install required dependencies:
-pip install -r requirements.txt
+1. Clone the repository:
+   git clone https://github.com/ugochi141/Critical-Values-Alert-System.git
+2. Navigate to the project directory:
+   cd Critical-Values-Alert-System
+3. Create and activate a virtual environment:
+   python3 -m venv venv
+   source venv/bin/activate
+4. Install required dependencies:
+   pip install -r requirements.txt
 
 Markdown
 copy
