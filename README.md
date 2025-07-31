@@ -1,7 +1,17 @@
 # Critical Values Alert System
 
-## Description
+## 🩺 Overview
 The Critical Values Alert System is an automated tool designed to monitor laboratory test results and immediately notify healthcare providers when critical values are detected. This system enhances patient safety by ensuring rapid communication of potentially life-threatening test results, reducing the risk of delayed treatment and improving overall clinical outcomes.
+
+## 🚀 Live Demo
+**Production Application**: [https://critical-values-alert.streamlit.app](https://critical-values-alert.streamlit.app)  
+**Development Dashboard**: [https://lab-alerts-dev.herokuapp.com](https://lab-alerts-dev.herokuapp.com)
+
+*Demo Features:*
+- Real-time critical value monitoring
+- Interactive dashboard with sample data
+- Alert management system
+- TAT (Turnaround Time) analytics
 
 ## Features
 - Real-time monitoring of laboratory results

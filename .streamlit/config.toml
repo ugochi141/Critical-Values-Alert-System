@@ -1,0 +1,70 @@
+[server]
+# Address where the server will listen for browser connections
+address = "0.0.0.0"
+
+# Port where the server will listen for browser connections
+port = 8501
+
+# Automatically rerun script when the file is modified on disk
+runOnSave = true
+
+# File size limit for uploading files (in MB)
+maxUploadSize = 200
+
+# Maximum message size to send/receive via WebSocket connection (in MB)
+maxMessageSize = 200
+
+# Enables support for Cross-Origin Request Sharing (CORS) protection
+enableCORS = false
+
+# Enables support for Cross-Site Request Forgery (XSRF) protection
+enableXsrfProtection = false
+
+# Max size, in megabytes, for files uploaded with the file_uploader
+fileWatcherType = "auto"
+
+[browser]
+# Internet address where users should point their browsers to connect to the app
+serverAddress = "localhost"
+
+# Port where users should point their browsers to connect to the app
+serverPort = 8501
+
+# Automatically open a new tab in the default browser
+gatherUsageStats = false
+
+[runner]
+# Allows you to type a variable or string by itself in a single line of Python code
+magicEnabled = true
+
+# Install a Python tracer to allow you to stop or pause your script at any point
+installTracer = false
+
+# Sets the MPLBACKEND environment variable
+fixMatplotlib = true
+
+[client]
+# Whether to enable st.cache
+caching = true
+
+# If false, makes your Streamlit script not draw to a Streamlit app
+displayEnabled = true
+
+# Controls whether uncaught app exceptions are displayed in the browser
+showErrorDetails = true
+
+# Change the visibility of items in the toolbar
+toolbarMode = "auto"
+
+[theme]
+# Primary accent color for interactive elements
+primaryColor = "#FF4B4B"
+
+# Background color for the main content area
+backgroundColor = "#FFFFFF"
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#F0F2F6"
+
+# Color used for almost all text
+textColor = "#262730"
